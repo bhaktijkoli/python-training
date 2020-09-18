@@ -1,0 +1,11 @@
+import datetime as dt
+today = dt.datetime.today()
+print("Current date and time", dt.datetime.now())
+print("Current Time in 12 Hours Format", today.strftime("%I:%M:%S %p"))
+print("Current year", today.year)
+print("Month of the year", today.strftime("%B"))
+print("Week number of the year", today.strftime("%W"))
+print("Week day of the week", today.strftime("%A"))
+print("Day of the year", today.strftime("%j"))
+print("Day of the month", today.strftime("%d"))
+print("Day of the week", today.strftime("%w"))
